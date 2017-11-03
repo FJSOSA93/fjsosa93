@@ -1,0 +1,36 @@
+/* css/micss.css */
+
+p.card-text {
+    padding: 20px;
+}
+
+div.form-group {
+    margin: 15px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 400px;
+}
+
+.carousel-inner{
+    height: 320px;
+}
+
+hr {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center;}
+
+
+
+.card {
+    background: gainsboro;
+
+}
+
+.card p {
+    margin-left: 2cm;
+    margin-top: 1cm;
+}
+
+.card img {
+    margin-top: 1cm;
+}

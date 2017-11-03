@@ -1,0 +1,538 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Etiquetas meta siempre van al inicio -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device, initial-scale=1, shrink-to-fit=no">
+		
+		<!--Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link href="css/micss.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/thumbnail-gallery.css" rel="stylesheet">
+	</head>
+	<body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <img src="images/icono.png" alt="" width="40" height="40">
+    <a class="navbar-brand" href="index.html">Jornada Academica</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="C_obligatorias.html"><i class="fa fa-window-maximize" aria-hidden="true"></i> Conferencias Obligatorias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="C_optativas.html"><i class="fa fa-window-restore" aria-hidden="true"></i>Conferencias Optativas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="carousel.html">Tutorial carousel<i class="fa fa-code" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="modal.html">Tutorial modal<i class="fa fa-code" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="acercade.html">Acerca de <i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Gallery.html">Galería<i class="fa fa-camera" aria-hidden="true"></i></a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+<br><br><br>
+		<!--
+<p>Ligas para etiquetas bootstrap</p>
+        <p>https://hackerthemes.com/bootstrap-cheatsheet/</p>
+        <p>https://bootstrapbay.com/bootstrap4/</p>
+-->
+<div align="center"><h2>Resumen de Conferencias Obligatorias</h2></div>
+<hr>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <h3 class="card-header text-center bg-success">Inteligencia Artificial</h3>
+                <div class="card-block">
+                    <div class="card-title text-center">
+                        <img src="images/IBM.jpg" alt="" width="450" height="300">
+                    </div>
+
+
+                    <div>
+                        <hr>
+                        <p>Fecha: 17 de Octubre del 2017 <br>
+                            Hora: 9:15 am. <br>
+                            Conferencista: M.C Pablo Salazar Linares.
+                        </p>
+                        <button type="button" class="btn btn-primary btn-lg active btn-block" data-toggle="modal" data-target=".Cartificial" aria-pressed="true">Ver resumen
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <h3 class="card-header text-center bg-success">Desarrollo Web en el 2017 + Tips</h3>
+                <div class="card-block">
+                    <div class="card-title text-center">
+                        <img src="images/oracle.jpeg" alt="" width="450" height="300">
+                    </div>
+                    <div>
+                        <hr>
+                        <p>Fecha: 17 de Octubre del 2017 <br>
+                            Hora: 10:30 am. <br>
+                            Conferencista: Ing. Adam Carrasco.
+                        </p>
+                        <button type="button" class="btn btn-primary btn-lg active btn-block" data-toggle="modal" data-target=".CDweb" aria-pressed="true">Ver resumen
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <h3 class="card-header text-center bg-success">Herramientas y técnicas para incrementar la calidad del
+                    código </h3>
+                <div class="card-block">
+                    <div class="card-title text-center">
+                        <img src="images/michelada1.jpg" alt="" width="450" height="300">
+                    </div>
+                    <div>
+                        <hr>
+                        <p>Fecha: 17 de Octubre del 2017 <br>
+                            Hora: 4:00 pm. <br>
+                            Conferencista: Ing. Eduardo Figarola Mota.
+                        </p>
+                        <button type="button" class="btn btn-primary btn-lg active btn-block" data-toggle="modal" data-target=".Cmichelada" aria-pressed="true">Ver resumen
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <h3 class="card-header text-center bg-success">Hacia donde va la investigación en las ciencias de la
+                    información</h3>
+                <div class="card-block">
+                    <div class="card-title text-center">
+                        <img src="images/xiomara1.jpg" alt="" width="450" height="300">
+                    </div>
+                    <div>
+                        <hr>
+                        <p>Fecha: 18 de Octubre del 2017 <br>
+                            Hora: 12:30 pm. <br>
+                            Conferencista: Dra Xiomara Penélope Zaldivar Colado.
+                        </p>
+                        <button type="button" class="btn btn-primary btn-lg active btn-block" data-toggle="modal" data-target=".Cxiomara" aria-pressed="true">Ver resumen
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <h3 class="card-header text-center bg-success">Machine learning 101</h3>
+                <div class="card-block">
+                    <div class="card-title text-center">
+                        <img src="images/M101.jpg" alt="" width="450" height="300">
+                    </div>
+                    <div>
+                        <hr>
+                        <p>Fecha: 19 de Octubre del 2017 <br>
+                            Hora: 9:00 am. <br>
+                            Conferencista: Ing. Edwin Efrain Jiménez Lepe
+                        </p>
+                        <button type="button" class="btn btn-primary btn-lg active btn-block" data-toggle="modal" data-target=".C101" aria-pressed="true">Ver resumen
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal Inteligencia Artificial. -->
+
+<div class="modal fade Cartificial" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Resumen Jornada Academica 2017</h3>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">&times;
+                </button>
+            </div>
+            <div class="modal-body">
+                <div align="center">
+                    <div class="container-fluid">
+                        <h2 class="modal-title">Inteligencia Artificial</h2>
+                        <hr>
+                        <p align="left">La presentacion la dio pablo salazar de IBM hablo de temas interesantes:</p>
+                        <br>
+
+                        <div class="row">
+                            <div class="col md 6">
+                                <p align="left">
+                                    &bull; Sistemas Autonomos <br>
+                                    &bull; Machine Learning <br>
+                                    &bull; Redes Neuronales <br>
+                                    &bull; Inteligencia Artificial (chat bots) <br>
+                                    &bull; Procesamiento de patrones <br>
+                                    &bull; Big Data <br>
+                                    &bull; Deep Learning <br>
+                                </p></div>
+                            <div class="col md 6"><img src="images/Artificial.jpg" alt="conferencia" width="400" height="200"></div>
+                            br
+                        </div>
+                        <p align="justify">
+                            <br>
+                            Hablo sobre watson dentro del tema de Deep Learning: <br>
+                            Watson es un sistema informático de inteligencia artificial que es capaz de responder a
+                            preguntas formuladas en lenguaje natural,1​ desarrollado por la corporación estadounidense
+                            IBM. Forma parte del proyecto del equipo de investigación DeepQA, liderado por el
+                            investigador principal David Ferrucci. Lleva su nombre en honor del fundador y primer
+                            presidente de IBM, Thomas J. Watson.2​3​
+
+                            Watson responde a las preguntas gracias a una base de datos almacenada localmente.4​ La
+                            información contenida en ese base de datos proviene de multitud de fuentes, incluyendo
+                            enciclopedias, diccionarios, tesauros, artículos de noticias, y obras literarias, al igual
+                            que bases de datos externos, taxonomías, y ontologías (específicamente DBpedia,
+                            WordNet).5​</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center">Jornada Academica 2017 &copy;</p>
+                    </div>
+                </div>
+                >
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal Desarrollo Web. -->
+
+<div class="modal fade CDweb" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Resumen Jornada Academica 2017</h3>
+
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">&times;
+                </button>
+            </div>
+            <div class="modal-body">
+                <div align="center">
+                    <div class="container-fluid">
+                        <h2 class="modal-title">Desarrollo Web en el 2017 + Tips</h2>
+                        <hr>
+                        <p align="left">Presentacion impartida por Adam Carrasco por parte de Oracle</p> <br>
+                        <p align="justify">
+                            En la conferencia Adam inicio hablando con el frontend y el backend donde: <br>
+                            El frontend son todas aquellas tecnologías que corren del lado del cliente, es
+                            decir, todas aquellas tecnologías que corren del lado del navegador web,
+                            generalizandose mas que nada en tres lenguajes, Html , CSS Y JavaScript. <br>
+
+                            El backend es aquel que se encuentra del lado del servidor, es decir,
+                            esta persona se encarga de lenguajes como PHP, Python, .Net, Java, etc, es aquel que
+                            se encarga de interactuar con bases de datos, verificar manejos de sesiones de
+                            usuarios, montar la página en un servidor, y desde este “servir” todas las vistas
+                            que el FrontEnd crea, es decir, uno como backend se encarga mas que nada de la
+                            manipulación de los datos. <br>
+                        </p>
+                        <hr>
+                        <div class="row">
+                            <div class="col md 6">
+                                <p align="left">
+                                    Ademas hablo sobre la importancia de las siguientes Tecnologias. <br> <br>
+
+                                    &bull; Aplicaciones Web Progresivas (PWA) <br>
+                                    &bull; Single Web Aplication (SPA)<br>
+                                    &bull; Responsive Desing <br>
+                                    &bull; Preprosesadores (Css, Scss, Sasss <br>
+                                    &bull; Frameworks para el frontend <br> <br>
+                                </p></div>
+                            <div class="col md 6"><img src="images/Oracle_Org.png" alt="conferencia" width="300" height="200"></div>
+                        </div>
+                        <p align="justify">
+                            Tambien Adam enfatizó en <b> aprender estructura de datos y entrenar algoritmos, usar
+                                frameworks
+                                pero primero enternder como funcionan internamente, Utilizar git para el control de
+                                versiones, "Leer Leer Leer" y un punto muy importante "Saber ingles"</b> <br> <br>
+                            Finalizando con el Funcional Testing que es un proceso de
+                            garantía de calidad (QA) y un tipo de prueba de caja negra que basa sus casos de prueba
+                            en las especificaciones del componente de software bajo prueba. Las funciones se prueban al
+                            alimentarlas con entrada y examinar la salida.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center">Jornada Academica 2017 &copy;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal micheladaio -->
+
+<div class="modal fade Cmichelada" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Resumen Jornada Academica 2017</h3>
+
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">&times;
+                </button>
+            </div>
+            <div class="modal-body">
+                <div align="center">
+                    <div class="container-fluid">
+                        <h2 class="modal-title">Herramientas y técnicas para incrementar la calidad del código</h2>
+                        <hr>
+                        <p align="left">Presentacion impartida por Ing. Eduardo Figarola Mota.</p> <br>
+                        <p align="justify">
+                            Eduardo en su presentacion inicio con una serie de chistes, muy divertidos.
+                            despues de unos minutos, inicio con la presentacion encerio hablando sobre software de
+                            calidad
+                            y explicando puntos sobre como debe de ser un software de calidad se los dejo en el
+                            siguiente parrafo:
+                            <br>
+                        </p>
+                        <hr>
+                        <div class="row">
+                            <div class="col md 6">
+                                <p align="left">
+                                    &bull; Cumplir un proposito <br>
+                                    &bull; Informe cuando un problema ocurre<br>
+                                    &bull; Tiene pruebas <br>
+                                    &bull; Se entiende su proposito con solo leerlo<br>
+                                    &bull; sigue un estilo de codigo <br>
+                                    &bull; Utiliza un flujo de colaboracion adecuado <br>
+                                    &bull; Implementa correctamente los patrones de diseño <br>
+                                    &bull; Se puede utilizar intuitivamente <br>
+
+                                </p></div>
+                            <div class="col md 6"><img src="images/michelada2.jpg" alt="conferencia" width="300" height="200"></div>
+                        </div>
+                        <p align="justify">
+                            Despues de explicar cada punto a detalle continuo con sistemas de monitoreo de errores
+                            donde menciono a "bugnap, sentry" entre otros. <br>
+                            Continuo con el tipo de pruebas que existen como: <br>
+
+                            <b>pruebas unitarias:</b> Es una clase sin tener algo externo es decir a un solo documento
+                            sin tomar en cuenta
+                            clases externas. <br>
+                            <b>pruebas de integración:</b> Son iguales a las anteriores con la diferencia que si tiene
+                            encuenta clases externas
+                            <br>
+                            <b>pruebas funcionales:</b> Pruebas en la aplicacion Automatizadas.
+                            <br> <br>
+
+                            y para finalizar hablo sobre la Colaboración continua, donde menciono sistemas de control de
+                            versiones donde entre ellas estaba
+                            git, Subversion y mercurial.
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center">Jornada Academica 2017 &copy;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal xiomara -->
+
+<div class="modal fade Cxiomara" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Resumen Jornada Academica 2017</h3>
+
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">&times;
+                </button>
+            </div>
+            <div class="modal-body">
+                <div align="center">
+                    <div class="container-fluid">
+                        <h2 class="modal-title">Hacia donde va la investigación en las ciencias de la
+                            información</h2>
+                        <hr>
+                        <p align="left">Presentacion impartida por la Dra Xiomara Penélope</p> <br>
+                        <p align="justify">
+                            Una conferencia muy interesante ya que la Dra hablo sobre los postgrados que ofrece el
+                            conacyt
+                            e inicio hablando sobre lo que es un posgrado de calidad. <br> <b>"un posgrado de calidad es
+                                aquel que esta reconocido por el conacyt"</b> <br>
+
+                            continuo diciendo que en México existen 2155 posgrados de calidad donde en nayarit tienen 12
+                            de esos mismos. <br>
+
+                            hablo de 3 estudiantes que se graduaron este mismo año hicieron movilidad, donde ellos
+                            recibieron apoyo del conacyt
+                            para poder salir del pais a realizar su maestria. <br>
+                            <br>
+                        </p>
+                        <hr>
+                        <div class="row">
+                            <div class="col md 6">
+                                <p align="left">
+
+                                    En la ciencias de informacion se esta realizando actualmente: <br>
+
+
+                                    &bull; Sistema de captura de movimiento. <br>
+                                    &bull; prosesamiento y analisis de informacion cismica.<br>
+
+                                </p></div>
+                            <div class="col md 6"><img src="images/xiomara2.jpg" alt="conferencia" width="300" height="200"></div>
+                        </div>
+                        <p align="justify">
+                            <b>Sistema de captura de movimiento.</b> <br>
+                            hace una propuesta para el desarrollo para la captura de movimientos de una mano humana,fue
+                            sometido a revision para ser presentado en el congreso de mazatlan
+                            con posibilidad a una nominacion.
+
+                            <b>Prosesamiento y analisis de informacion cismica.</b> <br>
+                            cuales son las coincidencias que hay en los sismos del sur de pais, en oaxaca
+                            inicio en 2015 y actualemnte con los sucesos se encontraron con esta investigacion muy
+                            interesante.
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center">Jornada Academica 2017 &copy;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Machine Learning -->
+
+<div class="modal fade C101" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Resumen Jornada Academica 2017</h3>
+
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">&times;
+                </button>
+            </div>
+            <div class="modal-body">
+                <div align="center">
+                    <div class="container-fluid">
+                        <h2 class="modal-title">Machine Learning 101</h2>
+                        <hr>
+                        <p align="left">Presentacion impartida por el Ing. Edwin Efrain Jiménez Lepe</p> <br>
+                        <p align="justify">
+                           Edwin Egresado del Tecnologico de Tepic hablo sobre machine learning un modulo de la inteligencia artificial
+                            enfatizó sobre el significado de inteligencia y aprendizaje. <br>
+
+                            Citó a Arthur Samuel quien fue un pionero en el campo de los juegos informáticos y la inteligencia artificial y el creador de uno de los primeros juegos didácticos como demostración muy temprana de el concepto de la inteligencia artificial (AI).
+                            <br>
+
+                            Despues hablo de el reconocimiento de patrones en fotos donde explico el proceso complejo que esto con lleva
+                            <br>
+
+                            <b>INPUT  >  Process  > Vector de probabilidades</b>, "como resumen".
+
+
+                            <br>
+                        </p>
+                        <hr>
+                        <div class="row">
+                            <div class="col md 6">
+                                <p align="left">
+
+                                   Recomendo plataformas para cursos en linea como: <br>
+
+
+                                    &bull; Coursera <br>
+                                    &bull; Udacity<br>
+                                    &bull; Edx<br>
+                                    &bull; mit opencourseware<br>
+
+                                </p></div>
+                            <div class="col md 6"><img src="images/M1011.jpg" alt="conferencia" width="300" height="400"></div>
+                        </div>
+                        <p align="justify">
+
+                            Pero sin duda lo mas interesante es que hablo sobre el Deep Learning,
+                            que consiste en "entrenar" o enseñar a una maquina a hacer una tarea repetida determinada
+                            para cuando se presente con patrones o entradas unicas esta sepa que hacer , como procesarlo y dar una salida con un porcentaje alto de probabilidad.
+
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center">Jornada Academica 2017 &copy;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-12">
+        <p class="text-center">Jornada Academica 2017 &copy;</p>
+    </div>
+</div>
+
+		<!--Primero JQuery, después Bootstrap-->
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		<script src="js/mijs.js"></script>
+	</body>
+</html>

@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Etiquetas meta siempre van al inicio -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device, initial-scale=1, shrink-to-fit=no">
+		
+		<!--Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link href="css/micss.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/thumbnail-gallery.css" rel="stylesheet">
+	</head>
+	<body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <img src="images/icono.png" alt="" width="40" height="40">
+    <a class="navbar-brand" href="index.html">Jornada Academica</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="C_obligatorias.html"><i class="fa fa-window-maximize" aria-hidden="true"></i> Conferencias Obligatorias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="C_optativas.html"><i class="fa fa-window-restore" aria-hidden="true"></i>Conferencias Optativas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="carousel.html">Tutorial carousel<i class="fa fa-code" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="modal.html">Tutorial modal<i class="fa fa-code" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="acercade.html">Acerca de <i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Gallery.html">Galería<i class="fa fa-camera" aria-hidden="true"></i></a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+<br><br><br>
+		<!-- Investigar hacer el formulario dentro de un card y subirlo -->
+<!-- Modificar lo de tablas dentro de una tarjeta -->
+
+<h2></h2>
+<div class="container">
+    <div class="card">
+        <h2 class="card-header text-center bg-info">Como hacer un carousel de imagenes.</h2>
+        <div class="card-block">
+            <div class="container">
+        <p align="justify">El carrusel es una presentación de diapositivas para el ciclismo a través de una serie de contenido, construido con CSS 3D y un poco de JavaScript. Funciona con una serie de imágenes, texto o marcado personalizado. También incluye soporte para controles e indicadores anteriores / próximos.</p>
+
+
+                <h2>Crearemos un carousel como el siguiente</h2> <br>
+
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="images/xiomara1.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="images/xiomara2.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="images/M101.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+           <div><br>
+            <b>Paso 1.-</b>  Primeramente crear tu pagina html donde crearas el carousel <br>
+            <b>Paso 2.-</b>  Despues crear una carpeta en la raiz para almacenar las imagenes que iran en el carousel.
+                <br>
+            <b>Paso 3.-</b> Colocaremos el siguiente Codigo en nuestra pagina html <br>
+               <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".Codigo" aria-pressed="true">Ver Código
+               </button>
+               <br>
+               <b>Paso 4.-</b> En cada etiqueta de imagen en "src" coloca la url de la imagen deseada como ejemplo <b>images/img1.jpg</b>
+               <br>
+
+               <b>Paso 5.-</b> Ejecuta tu HTML y visualiza tu carousel <br> <br>
+
+
+
+           <b>Recomendaciones:</b> <br>
+               <p>Asegúrese de establecer una identificación única en los .carouselcontroles opcionales, especialmente si está utilizando múltiples carruseles en una sola página.</p>
+           </div></div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal Codigo -->
+
+<div class="modal fade Codigo" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title"></h3>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">&times;
+                </button>
+            </div>
+            <div class="modal-body">
+                <div align="center">
+                    <div class="container-fluid">
+                        <h2 class="modal-title">Código carousel</h2>
+                        <hr>
+
+                  <div class="card">
+
+
+                      <code class="highlighter-rouge">
+                            <pre>
+                              <p align="left">
+                      &lt;div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"&gt;
+                          &lt;div class="carousel-inner" role="listbox"&gt;
+                             &lt;div class="carousel-item active"&gt;
+                                  &lt;img class="d-block img-fluid" src="..." alt="First slide"&gt;
+                              &lt;/div&gt;
+                              &lt;div class="carousel-item"&gt;
+                                  &lt;img class="d-block img-fluid" src="..." alt="Second slide"&gt;
+                              &lt;/div&gt;
+                              &lt;div class="carousel-item"&gt;
+                                  &lt;img class="d-block img-fluid" src="..." alt="Third slide"&gt;
+                              &lt;/div&gt;
+                         &lt;/div&gt;
+                      &lt;/div&gt;
+                          </p>
+</pre>
+                      </code>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center">Jornada Academica 2017 &copy;</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-12">
+        <p class="text-center">Jornada Academica 2017 &copy;</p>
+    </div>
+</div>
+
+		<!--Primero JQuery, después Bootstrap-->
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		<script src="js/mijs.js"></script>
+	</body>
+</html>

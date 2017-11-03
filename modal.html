@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Etiquetas meta siempre van al inicio -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device, initial-scale=1, shrink-to-fit=no">
+		
+		<!--Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link href="css/micss.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/thumbnail-gallery.css" rel="stylesheet">
+	</head>
+	<body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <img src="images/icono.png" alt="" width="40" height="40">
+    <a class="navbar-brand" href="index.html">Jornada Academica</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="C_obligatorias.html"><i class="fa fa-window-maximize" aria-hidden="true"></i> Conferencias Obligatorias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="C_optativas.html"><i class="fa fa-window-restore" aria-hidden="true"></i>Conferencias Optativas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="carousel.html">Tutorial carousel<i class="fa fa-code" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="modal.html">Tutorial modal<i class="fa fa-code" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="acercade.html">Acerca de <i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Gallery.html">Galería<i class="fa fa-camera" aria-hidden="true"></i></a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+<br><br><br>
+		<!-- Investigar hacer el formulario dentro de un card y subirlo -->
+<!-- Modificar lo de tablas dentro de una tarjeta -->
+
+<h2></h2>
+<div class="container">
+    <div class="card">
+        <h2 class="card-header text-center bg-info">Como hacer una ventana modal</h2>
+        <div class="card-block">
+            <div class="container">
+                <p align="justify">Los modales son simplificados, pero las instrucciones de diálogo flexibles funcionan
+                    con JavaScript. Son compatibles con una serie de casos de uso desde la notificación al usuario hasta
+                    el contenido completamente personalizado y cuentan con un puñado de subcomponentes útiles, tamaños y
+                    más.
+
+                </p>
+
+                <h2>Ejemplo de un modal Click en el botón</h2> <br>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".moda">
+                    Ejecutar modal
+                </button>
+
+                <div class="modal fade moda">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Cuerpo del Modal.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div><br>
+                    <b>Paso 1.-</b> Primeramente crear tu pagina html donde crearas el Modal <br>
+                    <b>Paso 2.-</b> Crea un boton que ejecutara el modal, puedes copiar el código siguiente.<br>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".nombredelmodal" aria-pressed="true">Ver Código
+                    </button>
+                    <br>
+                    <b>Paso 3.-</b> para el este paso debemos crear el codigo que usaremos en el modal ejemplo: <br>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".Codigo" aria-pressed="true">Ver Código
+                    </button>
+
+                    <br>
+                    <b>Paso 4.-</b> Dentro del title del modal coloca tu titulo de lo que deseas mostrar
+                    <br>
+
+                    <b>Paso 5.-</b> Dentro del body  coloca el contenido de tu modal. <br> <br>
+
+
+                    <b>Recomendaciones:</b>
+                    <p>Asegúrese de establecer una identificación única en los .nombredelmodal opcionales,
+                        especialmente si está utilizando múltiples modales en una sola página.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal boton -->
+
+<div class="modal fade nombredelmodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title"></h3>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">&times;
+                </button>
+            </div>
+            <div class="modal-body">
+                <div align="center">
+                    <div class="container-fluid">
+                        <h2 class="modal-title">Código boton</h2>
+                        <hr>
+
+                        <div class="card">
+
+
+                            <code>
+                            <pre>
+                              <p align="left">
+                     &lt;button type="button" class="btn btn-primary " data-toggle="modal"
+                             data-target=".nombredelmodal" aria-pressed="true"&gt;Ver Código
+                    &lt;/button&gt;
+                          </p>
+</pre>
+                            </code>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-center">Jornada Academica 2017 &copy;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Codigo -->
+
+<div class="modal fade Codigo" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title"></h3>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">&times;
+                </button>
+            </div>
+            <div class="modal-body">
+                <div align="center">
+                    <div class="container-fluid">
+                        <h2 class="modal-title">Codigo modal</h2>
+                        <hr>
+
+                        <div class="card">
+
+
+                            <code>
+                            <pre>
+                              <p align="left">
+                     &lt;div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                          aria-labelledby="exampleModalLabel" aria-hidden="true"&gt;
+  &lt;div class="modal-dialog" role="document"&gt;
+    &lt;div class="modal-content"&gt;
+      &lt;div class="modal-header"&gt;
+        &lt;h5 class="modal-title" id="exampleModalLabel">Modal title&lt;/h5&gt;
+                                  &lt;button type="button" class="close" data-dismiss="modal" aria-label="Close"&gt;
+          &lt;span aria-hidden="true"&gt; &times; &lt;/span&gt;
+                                  &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class="modal-body"&gt;
+        ...
+      &lt;/div>
+     &lt;div class="modal-footer"&gt;
+        &lt;button type="button" class="btn btn-secondary" data-dismiss="modal"&gt;Close&lt;/button&gt;
+                                  &lt;button type="button" class="btn btn-primary"&gt;Save changes&lt;/button&gt;
+                                  &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+                                </p>
+</pre>
+                            </code>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-center">Jornada Academica 2017 &copy;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-12">
+        <p class="text-center">Jornada Academica 2017 &copy;</p>
+    </div>
+</div>
+
+		<!--Primero JQuery, después Bootstrap-->
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		<script src="js/mijs.js"></script>
+	</body>
+</html>
